@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temaprature</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="icon" href="https://th.bing.com/th/id/OIP._eJ9VycuMwvxEhowwTGZWQHaJI?w=860&h=1060&rs=1&pid=ImgDetMain">
+</head>
+<body>
+    <script src="scipt.js"></script>
+    <div>
+        <form action="#">
+            <h1>Temperature Conversion</h1>
+            <input type="number" id="textBox" value="0"><br>
+
+            <input type="radio" name="unit" id="toFaranhite">
+            <label for="toFaranhite">Celsius ➡️ Farenhit</label><br>
+
+            <input type="radio" name="unit" id="toCelcius">
+            <label for="toCelcius">Farenhit ➡️ Celsius </label><br>
+
+            <button type="button" onclick="convert()">Submit</button>
+            <p id="result"></p><br>
+            <p id="resulting"></p>
+        </form>
+    </div>
+</body>
+</html>
